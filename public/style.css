@@ -2,6 +2,10 @@ body {
   background-color: #FF0051;
 }
 
+.label {
+  display: none;
+}
+
 @media screen and (min-width: 520px){
 
   body {
@@ -10,19 +14,35 @@ body {
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 767px) {
+
+  .mobile {
+    display: inline-block;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
   body {
     background-color: #EBE54D;
   }
 
+  .tablet {
+    display: inline-block;
+  }
+
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
 
   body {
     background-color: #757449;
+  }
+
+  .desktop-small {
+    display: inline-block;
   }
 
 }
@@ -32,6 +52,10 @@ body {
 
   body {
     background-color: #4B490B;
+  }
+
+  .desktop-large {
+    display: inline-block;
   }
 
 }
