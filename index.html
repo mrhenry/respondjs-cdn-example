@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>RespondJS CDN Example</title>
+  <link rel="stylesheet" href="http://respondjs-cdn-example.s3.amazonaws.com/style.css">
+  <style type="text/css">
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Respond.js proxy on external server -->
+<link href="http://respondjs-cdn-example.s3.amazonaws.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+
+<!-- Respond.js script on local server -->
+<script src="respond.min.js"></script>
+
+<!-- Respond.js proxy script on local server -->
+<script src="respond.proxy.js"></script>
+
+<h1>RespondJS CDN Example</h1>
+<p>
+  The background color will change according to the viewport width.
+</p>
+<p>
+  If it stays pink in IE8, this means it isn't working.
+</p>
+<p>
+  <a href="https://github.com/scottjehl/Respond#cdnx-domain-setup">More info</a>
+</p>
+
+</body>
+</html>
